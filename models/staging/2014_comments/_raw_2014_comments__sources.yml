@@ -1,0 +1,33 @@
+version: 2
+# redditpredict.reddit_comments_2014.full_2014_comments
+sources:
+  - name: reddit_comments_2014
+    description: The full BigQuery results for archived 2014 reddit comments
+    tables:
+      - name: full_2014_comments
+        columns:
+          - name: id
+            description: comment id, primary key
+            tests:
+              - unique
+              - not_null
+          - name: author
+            description: author's username
+            tests:
+              - not_null
+          - name: subreddit
+            description: subreddit posted upon
+            tests:
+            - not_null
+          - name: score
+            description: comment score
+            tests:
+            - not_null
+          - name: created_utc
+            description: time comment was created as UTC timestamp
+            tests:
+            - not_null
+          - name: body
+            description: body text of comment
+            tests:
+            - not_null
