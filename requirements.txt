@@ -1,0 +1,5 @@
+# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
+pandas=1.4.4
+numpy=1.23.3
+
+#google.cloud #only if you need to run getBucket.py in the data folder
