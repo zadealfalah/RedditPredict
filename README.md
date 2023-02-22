@@ -1,15 +1,10 @@
-Welcome to your new dbt project!
+# Reddit Comment Karma Prediction
+Predicting reddit comment karma (score).  ETL performed with BigQuery and dbt.  EDA, analysis, and modeling performed with Python.
 
-### Using the starter project
+## General Info
+This project was originally created as a final project for a course in my masters.  I am reinvestigating the material while incorporating new technologies (e.g. dbt).  Many of these new technologies were used during a trial period, so code is being written to accommodate this.  
 
-Try running the following commands:
-- dbt run
-- dbt test
+### Prospective Roadmap
+As of right now the ETL has been performed for 2014 reddit comments from the 'funny' subreddit.  The hope is to complete the EDA, analysis, and modeling on this dataset before creating .py file(s) to allow for easy follow-up with new data - whether it be for comparison to the found results or to add on and expand upon them.  For example, the addition of 2015 reddit comments in the 'funny' subreddit. 
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](http://community.getbdt.com/) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Other tools may be utilized to gain experience with them and will be added to the readme as they are used.
