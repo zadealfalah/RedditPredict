@@ -10,7 +10,7 @@ comments as (
 split_dates as (
 
     select  
-        id as comment_id, 
+        distict(id) as comment_id, 
         author,
         subreddit,
         score,
