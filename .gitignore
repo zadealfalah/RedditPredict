@@ -4,3 +4,4 @@ dbt_packages/
 logs/
 test.json
 *.csv
+original_project/Reddit_Comment_Karma_Predictions.ipynb
