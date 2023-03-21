@@ -3,20 +3,21 @@ Predicting reddit comment karma (score) using only comment text data within and 
 
 ## Table of Contents
 * [General Info](#general-info)
-* [Prospective Roadmap](#prospective-roadmap)
 * [Technologies](#technologies)
+* [Prospective Roadmap](#prospective-roadmap)
 * [Processes and Features](#processes-and-features)
+* [Things To Do](#things-to-do)
+
+## General Info
+The main goal was to build a regression model to predict the score a comment might get within a subreddit.  This was shifted to a classifcation problem where we look to classify prospective comments as 'good', 'okay', and 'bad' within a subreddit.  Future work will hopefully allow for examinations between subreddits as well.
+
+This project was originally created as a final project for a course in my masters.  I am reinvestigating the material while incorporating new technologies (e.g. dbt).  Many of these new technologies were used during a trial period, so code is being written to accommodate this.  
 
 ## Technologies
 - python (bertopic, spacy, pandas, pickle, sklearn)
 - dbt
 - sql
 - GCP (BigQuery, buckets)
-
-## General Info
-The main goal was to build a regression model to predict the score a comment might get within a subreddit.  This was shifted to a classifcation problem where we look to classify prospective comments as 'good', 'okay', and 'bad' within a subreddit.  Future work will hopefully allow for examinations between subreddits as well.
-
-This project was originally created as a final project for a course in my masters.  I am reinvestigating the material while incorporating new technologies (e.g. dbt).  Many of these new technologies were used during a trial period, so code is being written to accommodate this.  
 
 ## Prospective Roadmap
 As of right now the ETL has been performed for 2014 reddit comments from the 'funny' subreddit.  The hope is to complete the EDA, analysis, and modeling on this dataset before creating .py file(s) to allow for easy follow-up with new data - whether it be for comparison to the found results or to add on and expand upon them.  For example, the addition of 2015 reddit comments in the 'funny' subreddit or perhaps the 2014 'ask' subreddit.
