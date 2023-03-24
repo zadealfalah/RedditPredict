@@ -1,4 +1,4 @@
-# Reddit Comment Karma Prediction - Python Analysis (WORK IN PROGRESS)
+# redditPredict - Python Analysis (WORK IN PROGRESS)
 Predicting reddit comment karma (score) using only comment text data within and between subreddits.
 
 ## Table of Contents
