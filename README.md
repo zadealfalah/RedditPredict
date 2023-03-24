@@ -9,9 +9,9 @@ Predicting reddit comment karma (score) using only comment text data within and 
 * [Things To Do](#things-to-do)
 
 ## General Info
-The main goal was to build a regression model to predict the score a comment might get within a subreddit.  This was shifted to a classifcation problem where we look to classify prospective comments as 'good', 'okay', and 'bad' within a subreddit.  Future work will hopefully allow for examinations between subreddits as well.
+RedditPredict currently has a few pieces.  First, there is topic modeling with Gensim and spaCy - visualized with LDAVis - with files prefaced with topicModeling.  Then, there are classification models being built using spaCy and BERTopic, these are prefaced with commentModeling.  The ETL was performed via dbt with data from GCP's BigQuery.
 
-This project was originally created as a final project for a course in my masters.  I am reinvestigating the material while incorporating new technologies (e.g. dbt).  Many of these new technologies were used during a trial period, so code is being written to accommodate this.  
+This project was originally created as a final project for a course in my masters. The main goal was to build a regression model to predict the score a comment might get within a subreddit. I am reinvestigating the material while incorporating new technologies (e.g. dbt).  Many of these new technologies were used during a trial period, so code is being written to accommodate this.  
 
 ## Technologies
 - python (bertopic, spacy, pandas, pickle, sklearn)
