@@ -41,3 +41,4 @@ As it is right now, the model is having memory issues despite using BERTopic's l
 - After best approach is decided for commentModeling, create the .py file(s) for future use
 - Refine topicModeling for better topics.  Run for each of our categories to get topic models by category
 - Figure out issue with plotting best_model in topicModeling LDAvis
+- POSSIBLE FUTURE WORK - Create CI/CD pipeline for more comments.
