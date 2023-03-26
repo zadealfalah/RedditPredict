@@ -34,7 +34,9 @@ After binning the scores, BERTopic was used along with spacy's en_core_web_sm tr
 As it is right now, the model is having memory issues despite using BERTopic's low_memory and not calculating the probabilities.  This needs to be addressed before any work can continue.
 
 ## Things To Do
-- Figure out how to address OOM errors if we continue with the same approach for commentModeling
+- Create preprocess.py for spacy
+- Complete project.yml and base_config.cfg files for spacy
+- Update requirements.txt, maybe make specific ones for each task e.g. topicRequirements.txt, commentRequirements.txt, etc?
 - Add comparison approaches for commentModeling
 - Train init. bert model on either sampled data, or on 'full' training data with class weights
 - Maybe try both approaches above, compare metrics?  Costly and time consuming though.
